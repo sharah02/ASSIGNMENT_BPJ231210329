@@ -123,3 +123,39 @@ button {
 button:hover {
     background-color: #5F6F65;
 }
+.bmi-info {
+    background-color: #808D7C; /* Light background color */
+    border: 2px solid #5F6F65; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    max-width: 300px; /* Maximum width */
+    margin: 20px auto; /* Center align */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.bmi-info p {
+    font-size: 16px; /* Paragraph font size */
+    font-weight: bold; /* Bold text */
+    color: black; /* Blue text color */
+}
+
+.bmi-info ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+.bmi-info li {
+    font-size: 14px; /* List items font size */
+    color: #333; /* Dark gray text color */
+    margin-bottom: 8px; /* Space between items */
+    padding-left: 20px; /* Padding for list items */
+    position: relative; /* Positioning for custom bullet */
+}
+
+.bmi-info li:before {
+    content: "•"; /* Custom bullet symbol */
+    color: black; /* Bullet color */
+    position: absolute; /* Position the bullet */
+    left: 0; /* Align bullet to the left */
+}
+
